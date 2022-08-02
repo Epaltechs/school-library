@@ -16,7 +16,7 @@ Alternatively, you can just download the complete zip file and extract the folde
 In the project directory, you can run:
 > ruby person.rb
 or alternatively you can copy and paste the commands in
-> irb 
+> irb
 
 ## 👤 Author
 
@@ -24,7 +24,7 @@ or alternatively you can copy and paste the commands in
 - GitHub: [@Epaltechs](https://github.com/Epaltechs)
 - LinkedIn: [Emmanuel Paul](https://www.linkedin.com/in/emmanuel-s-paul)
 - Twitter: [Emmanuel Paul](http://twitter.com/@emmapaul247)
-- AngeList: [https://angel.co/u/emmanuel-s-paul]
+- AngeList: [Emmanuel Paul](https://angel.co/u/emmanuel-s-paul)
 
 ## :handshake: Contributing
 - Contributions, issues, and feature requests are welcome!

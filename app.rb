@@ -19,7 +19,7 @@ def list_all_people(people)
   end
 end
 
-def create_person()
+def create_person(*)
   puts 'Do you want create student (1) or teacher (2)? [Enter the number]: '
   person_type = gets.chomp.to_i
   case person_type

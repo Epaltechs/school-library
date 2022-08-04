@@ -5,7 +5,7 @@ def main
   people = []
   rentals = []
 
-  menu_selection(books, people, rentals)
+  selection(books, people, rentals)
 end
 
 def main_menu
@@ -20,7 +20,7 @@ def main_menu
   7 - Exit'
 end
 
-def menu_selection(books, people, rentals)
+def selection(books, people, rentals)
   loop do
     main_menu
     selection = gets.chomp.to_i

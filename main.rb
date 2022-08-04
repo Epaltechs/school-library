@@ -5,7 +5,7 @@ def main
   people = []
   rentals = []
 
-  selects(books, people, rentals)
+  options(books, people, rentals)
 end
 
 def main_menu
@@ -20,11 +20,11 @@ def main_menu
   7 - Exit'
 end
 
-def selects(books, people, rentals)
+def options(books, people, rentals)
   loop do
     main_menu
-    selects = gets.chomp.to_i
-    case selects
+    options = gets.chomp.to_i
+    case options
     when 1
       list_all_books(books)
     when 2

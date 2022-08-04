@@ -19,34 +19,32 @@ def list_all_people(people)
   end
 end
 
-def create_person(*)
-  puts 'Do you want create student (1) or teacher (2)? [Enter the number]: '
-  person_type = gets.chomp.to_i
-  case person_type
+def create_person(people)
+  print 'Do you want to create a student (1) or a teacher (2): '
+  selected_person = gets.chomp.to_i
+  print 'Age: '
+  age = gets.chomp.to_i
+  print 'Name: '
+  name = gets.chomp
+  case selected_person
   when 1
-    print 'Enter student name: '
-    name = gets.chomp
-    print 'Enter age: '
-    age = gets.chomp
-    @people.push(Student.new('classroom', age, name))
-    puts 'Student created successfully'
+    print 'Has parent permission? [Y/N]: '
+    provided_permission = gets.chomp.capitalize
+    student_permission = true if provided_permission == 'Y'
+    student_permission = false if provided_permission == 'N'
+    people.push(Student.new(nil, age, name, parent_permission: student_permission))
   when 2
-    print 'Enter teacher name: '
-    name = gets.chomp
-    print 'Enter age: '
-    age = gets.chomp
-    print 'Enter specialization: '
+    print 'Specialization: '
     specialization = gets.chomp
-    @people.push(Teacher.new(specialization, age, name))
-    puts 'Person created successfully'
+    people.push(Teacher.new(specialization, age, name))
   end
+  puts 'Person created successfully.'
 end
 
 def create_book(books)
-  puts 'Create a new book'
-  print 'Enter title: '
+  print 'Title: '
   title = gets.chomp
-  print 'Enter author: '
+  print 'Author: '
   author = gets.chomp
   books.push(Book.new(title, author))
   puts 'Book created successfully.'

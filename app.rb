@@ -59,7 +59,7 @@ def create_rental(books, people, rentals)
 
   puts 'Select a person from the following list by number (Not ID): '
   people.map.with_index do |person, index|
-  puts "#{index}) [#{person.class}] Name: #{person.name}, ID: #{person.id}, Age: #{person.age}"
+    puts "#{index}) [#{person.class}] Name: #{person.name}, ID: #{person.id}, Age: #{person.age}"
   end
 
   selected_person = gets.chomp.to_i

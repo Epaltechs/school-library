@@ -37,8 +37,7 @@ def selection(books, people, rentals)
       create_rental(books, people, rentals)
     when 6
       list_all_rentals_by_id(rentals)
-    when 7
-      puts 'Goodbye, see you some other time'
+    else
       exit
     end
   end

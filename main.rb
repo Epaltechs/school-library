@@ -38,7 +38,7 @@ def selection(books, people, rentals)
     when 6
       list_all_rentals_by_id(rentals)
     else
-      exit
+      puts 'Goodbye, see you some other time'
     end
   end
 end

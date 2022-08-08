@@ -1,4 +1,4 @@
-require './user_input'
+require './inputs'
 
 class List
   attr_reader :people, :books, :rentals
@@ -25,11 +25,10 @@ class List
     end
   end
 
-  def list_all_rentals_by_id(rentals)
-    print 'ID of person: '
-    person_id = gets.chomp.to_i
-      rentals.map do |rental|
+  def list_all_rentals_by_id
+    person_id = rentals_person_id
+    @rentals.map do |rental|
       puts "Date: #{rental.date}, Book: #{rental.book.title} by #{rental.book.author}" if rental.person.id == person_id
-   end
+    end
   end
 end

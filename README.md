@@ -18,13 +18,20 @@ In the project directory, you can run:
 or alternatively you can copy and paste the commands in
 > irb
 
-## 👤 Author
+## 👤 Authors
 
 :bust_in_silhouette: **Emmanuel Paul**
 - GitHub: [@Epaltechs](https://github.com/Epaltechs)
 - LinkedIn: [Emmanuel Paul](https://www.linkedin.com/in/emmanuel-s-paul)
 - Twitter: [Emmanuel Paul](http://twitter.com/@emmapaul247)
 - AngeList: [Emmanuel Paul](https://angel.co/u/emmanuel-s-paul)
+
+👤 **Ademola Adebayo**
+
+- Github: [@Smart1-hub](https://github.com/Smart1-hub)
+- Twitter: [@ademola_adebayo](https://twitter.com/ademola_adebayo)
+- LinkedIn: [Ademola Adebayo](https://www.linkedin.com/in/ademola-adebayo-81051578/)
+- [e-mail](scdk@yahoo.com)
 
 ## :handshake: Contributing
 - Contributions, issues, and feature requests are welcome!

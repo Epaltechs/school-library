@@ -2,7 +2,7 @@ require './book'
 require './student'
 require './teacher'
 require './rental'
-require './list_items'
+require './create_lists'
 require './create_items'
 
 class App
@@ -14,23 +14,22 @@ class App
     @create = Create.new(@books, @people, @rentals)
   end
 
-  def selection(books, people, rentals)
+  def selection
     loop do
       main_menu
-      selection = gets.chomp.to_i
-      case selection
+      case gets.chomp.to_i
       when 1
-        list_all_books(books)
+        @list.list_all_books
       when 2
-        list_all_people(people)
+        @list.list_all_people
       when 3
-        create_person(people)
+        @create.create_person
       when 4
-        create_book(books)
+        @create.create_book
       when 5
-        create_rental(books, people, rentals)
+        @create.create_rental
       when 6
-        list_all_rentals_by_id(rentals)
+        @list.list_all_rentals_by_id
       else
         exit
       end

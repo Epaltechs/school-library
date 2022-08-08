@@ -17,8 +17,7 @@ class App
   def selection
     loop do
       main_menu
-      selection = gets.chomp.to_i
-      case selection
+      case gets.chomp.to_i
       when 1
         @list.list_all_books
       when 2

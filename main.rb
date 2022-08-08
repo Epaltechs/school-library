@@ -1,13 +1,5 @@
 require './app'
 
-def main
-  books = []
-  people = []
-  rentals = []
-
-  selection(books, people, rentals)
-end
-
 def main_menu
   puts 'Welcome to School library App!'
   puts 'Please choose an option by entering a number:
@@ -20,6 +12,7 @@ def main_menu
   7 - Exit'
 end
 
+<<<<<<< HEAD
 def selection(books, people, rentals)
   loop do
     main_menu
@@ -41,6 +34,11 @@ def selection(books, people, rentals)
       puts 'Goodbye, see you some other time'
     end
   end
+=======
+def main
+  app = App.new
+  app.selection
+>>>>>>> 33fa88d19f86753ec27d1ddf1f262b79998913c1
 end
 
 main

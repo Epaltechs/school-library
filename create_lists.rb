@@ -29,6 +29,6 @@ class List
     person_id = rentals_person_id
     @rentals.map do |rental|
       puts "Date: #{rental.date}, Book: #{rental.book.title} by #{rental.book.author}" if rental.person.id == person_id
-   end
+    end
   end
 end

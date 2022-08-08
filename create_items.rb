@@ -8,7 +8,7 @@ class Create
     @books = books
     @rentals = rentals
   end
-  
+
   def create_person
     selected_person, name, age = person_info
     case selected_person

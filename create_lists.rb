@@ -6,7 +6,7 @@ class List
 
   def list_all_people
     if retrieve_people.empty?
-      puts 'There is no person!'
+      puts 'No person found!'
     else
       retrieve_people.each do |person|
         puts "[#{person['role']}] Name: #{person['name']}, ID: #{person['id']}, Age: #{person['age']}"
@@ -16,7 +16,7 @@ class List
 
   def list_all_books
     if retrieve_books.empty?
-      puts 'There is no book!'
+      puts 'No book found!'
     else
       retrieve_books.each { |book| puts "Title: '#{book['title']}', Author: #{book['author']}" }
     end

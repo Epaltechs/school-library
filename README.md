@@ -14,7 +14,7 @@ Alternatively, you can just download the complete zip file and extract the folde
 
 ### Step 2:
 In the project directory, you can run:
-> ruby person.rb
+> ruby main.rb
 or alternatively you can copy and paste the commands in
 > irb
 
@@ -30,7 +30,7 @@ or alternatively you can copy and paste the commands in
 
 - Github: [@Smart1-hub](https://github.com/Smart1-hub)
 - Twitter: [@ademola_adebayo](https://twitter.com/ademola_adebayo)
-- LinkedIn: [Ademola Adebayo](https://www.linkedin.com/in/ademola-adebayo-81051578/)
+- LinkedIn: [Ademola Adebayo](https://www.linkedin.com/in/ademola-adebayo)
 
 ## :handshake: Contributing
 - Contributions, issues, and feature requests are welcome!
@@ -43,8 +43,7 @@ Give a :star:️ if you like this project!
 ## Acknowledgments
 - Many thanks to Microverse community and all those who have contributed to my progress.
 - 🎩Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Heartfelt appreciation to all those who provided much needed inspiration.
 
 ## :memo: License
 This project is MIT licensed.

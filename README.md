@@ -30,7 +30,7 @@ or alternatively you can copy and paste the commands in
 
 - Github: [@Smart1-hub](https://github.com/Smart1-hub)
 - Twitter: [@ademola_adebayo](https://twitter.com/ademola_adebayo)
-- LinkedIn: [Ademola Adebayo](https://www.linkedin.com/in/ademola-adebayo-81051578/)
+- LinkedIn: [Ademola Adebayo](https://www.linkedin.com/in/ademola-adebayo)
 
 ## :handshake: Contributing
 - Contributions, issues, and feature requests are welcome!

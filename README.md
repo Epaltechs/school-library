@@ -43,8 +43,7 @@ Give a :star:️ if you like this project!
 ## Acknowledgments
 - Many thanks to Microverse community and all those who have contributed to my progress.
 - 🎩Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Heartfelt appreciation to all those who provided much needed inspiration.
 
 ## :memo: License
 This project is MIT licensed.

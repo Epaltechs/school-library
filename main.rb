@@ -12,28 +12,6 @@ def main_menu
   7 - Exit'
 end
 
-def selection(books, people, rentals)
-  loop do
-    main_menu
-    selection = gets.chomp.to_i
-    case selection
-    when 1
-      list_all_books(books)
-    when 2
-      list_all_people(people)
-    when 3
-      create_person(people)
-    when 4
-      create_book(books)
-    when 5
-      create_rental(books, people, rentals)
-    when 6
-      list_all_rentals_by_id(rentals)
-    else
-      puts 'Goodbye, see you some other time'
-    end
-  end
-
 def main
   app = App.new
   app.selection

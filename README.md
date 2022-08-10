@@ -14,7 +14,7 @@ Alternatively, you can just download the complete zip file and extract the folde
 
 ### Step 2:
 In the project directory, you can run:
-> ruby person.rb
+> ruby main.rb
 or alternatively you can copy and paste the commands in
 > irb
 
